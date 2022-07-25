@@ -37,7 +37,6 @@ function findElement(arr, value) {
  */
 function generateOdds(len) {
   const res = new Array(len).fill(0).map((_, i) => 2 * i + 1);
-
   return res;
 }
 
@@ -310,7 +309,6 @@ function get3TopItems(arr) {
     }
     return res;
   });
-  // a < b ? 1 : a > b ? -1 : 0));
   return arr.slice(0, 3);
 }
 

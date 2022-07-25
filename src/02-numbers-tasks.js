@@ -240,12 +240,7 @@ function toNumber(value, def) {
   if (parseInt(value, 10) >= 0 || parseInt(value, 10) <= 0) {
     return value;
   }
-
   return def;
-
-
-  // if (typeof Number(value) === 'number' || Number(value) instanceof Number) {
-  //   return Number(value);
 }
 
 module.exports = {
